@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1{
+    color: gray;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#playerChoise button{
+    padding: 10px;
+    color: gold;
+    background-color: aqua;
+    border-radius: 100px;
+    font-size: 8em;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+#choseDisplay, #resultDisplay{
+    margin: 30px;
+    font-size: 3em;
+}
+
+#scoreBoard{
+    font-weight: bold;
+    font-size: 3em;
+    border: 2px solid;
+    border-radius: 30px;
+    box-shadow: 3px 3px 6px;
+}
+
+.green{
+    color: hsl(120, 100%, 25%);
+}
+
+.red{
+    color: tomato;
+}
